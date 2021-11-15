@@ -128,7 +128,7 @@
 					'colorLight': this.$colorLight					
 	            });				
 				
-				let qrcodejs = "https://raw.githubusercontent.com/ferrygun/SACQRCode/main/qr.js";
+				let qrcodejs = "https://raw.githubusercontent.com/dungvti/SAC_host_resource/master/qr.js";
 				async function LoadLibs() {
 	                try {
 	                    await loadScript(qrcodejs, shadowRoot);

@@ -11,14 +11,14 @@
 		{
 			"kind": "main",
 			"tag": "com-fd-qr",
-			"url": "https://raw.githubusercontent.com/ferrygun/SACQRCode/main/box.js",
+			"url": "https://raw.githubusercontent.com/dungvti/SAC_host_resource/master/box.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		},
 		{
 			"kind": "builder",
 			"tag": "com-fd-qr-bps",
-			"url": "https://raw.githubusercontent.com/ferrygun/SACQRCode/main/box_bps.js",
+			"url": "https://raw.githubusercontent.com/dungvti/SAC_host_resource/master/box_bps.js",
 			"integrity": "",
 			"ignoreIntegrity": true
 		}
