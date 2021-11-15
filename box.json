@@ -1,0 +1,86 @@
+{
+	"id": "com.fd.qr",
+	"version": "1.0.0",
+	"name": "FD QR",
+	"description": "A QR code demo",
+	"newInstancePrefix": "QR",
+	"vendor": "FD",
+	"eula": "EULA",
+	"license": "2.0",
+	"webcomponents": [
+		{
+			"kind": "main",
+			"tag": "com-fd-qr",
+			"url": "https://raw.githubusercontent.com/ferrygun/SACQRCode/main/box.js",
+			"integrity": "",
+			"ignoreIntegrity": true
+		},
+		{
+			"kind": "builder",
+			"tag": "com-fd-qr-bps",
+			"url": "https://raw.githubusercontent.com/ferrygun/SACQRCode/main/box_bps.js",
+			"integrity": "",
+			"ignoreIntegrity": true
+		}
+	],
+	"properties": {
+		"text": {
+			"type": "string",
+			"description": "QR text",
+			"default": ""
+		},
+		"colorDark": {
+			"type": "string",
+			"description": "QR Color Dark",
+			"default": "#000000"
+		},
+		"colorLight": {
+			"type": "string",
+			"description": "QR Color Light",
+			"default": "#FFFFFF"
+		},
+		"QRwidth": {
+			"type": "integer",
+			"description": "QR width",
+			"default": 128
+		},
+		"QRheight": {
+			"type": "integer",
+			"description": "QR height",
+			"default": 128
+		},
+		"width": {
+			"type": "integer",
+			"default": 128
+		},
+		"height": {
+			"type": "integer",
+			"default": 128
+		}
+	},
+	"methods": {
+		"setText": {
+			"description": "Sets the QR Text.",
+			"parameters": [
+				{
+					"name": "newText",
+					"type": "string",
+					"description": "QR Value"
+				}
+			],
+			"body": "this.text = newText;"
+		},
+		"getText": {
+			"returnType": "string",
+			"description": "Returns the QR Text.",
+			"body": "return this.text;"
+		}
+	},
+	"events": {
+		"onClick": {
+			"description": "Called when the user clicks the Box."
+		}
+	}
+}
+
+ 
